@@ -1,0 +1,301 @@
+Nombre,Apellido,vin,marca,modelo,año,país_origen,color,fecha_ultimo_dano,tipo_incidente,coste_estimado,gravedad,partes_afectadas,lectura_km,fecha_ultimo_itv,resultado_itv,observaciones
+Jan,Pereira,RM370W9T9BTZGDNFB,BMW,Modelo3,2017,Alemania,Blanco,2017-08-09,Daño menor,10519.33,Grave,Laterales,17204,2022-09-18,Favorable,Frenos OK
+Antonio,Pereira,VHTMBM1FPHWGVRBHL,Hyundai,Modelo1,2024,Alemania,Negro,2016-03-10,,1186.76,Grave,Puertas,186696,2023-12-21,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,552VPB1DW3HGVZEG2,Audi,Modelo3,2014,Japón,Azul,2021-04-30,Daño menor,5849.59,Grave,Puertas,116524,2020-09-23,Favorable,Frenos OK
+Sofía,Marín,8S26ZKLDGS693JY5Z,Nissan,Modelo2,2013,España,Negro,2021-05-18,Accidente grave,13814.13,Media,Capó,47010,2021-02-18,Desfavorable,Luces dañadas
+Antonio,Pereira,VUY9P1GWYBDMDR80T,Peugeot,Modelo3,2011,Alemania,Gris,2020-12-08,Daño por granizo,10699.89,,Laterales,144483,2021-09-21,Favorable,Fugas leves de aceite
+Sergio,Sanz,WAAB4AXU8UT4A5TRH,BMW,Modelo3,2014,Japón,Gris,2024-08-23,,1871.11,Leve,Capó,169585,2023-10-07,Desfavorable,Sin defectos
+Jorge Carmen,Medina,9H7U9Y1G7ASC48FBE,Toyota,Modelo1,2021,Alemania,Azul,,,,,,189813,2022-05-19,Desfavorable,Fugas leves de aceite
+Francisco,Moreno,JVMFY0FS1L4GNDEBY,Toyota,Modelo2,2024,Francia,Blanco,,,,,,72959,2024-04-14,Favorable,Luces dañadas
+Antonio,Pereira,L7ZDKVUY8V038RHZK,Fiat,Modelo1,2019,España,Gris,2023-10-22,Accidente grave,9713.09,Grave,Puertas,10674,2024-03-25,Desfavorable,Frenos OK
+Jan,Pereira,YSDEZYUE6X7YP443G,BMW,Modelo3,2016,Italia,Negro,2017-08-02,,12035.0,Leve,Motor,111602,2022-02-10,Desfavorable,Frenos OK
+Jan,Pereira,LMZ9TFGXUY0VDM1DM,Mazda,Modelo3,2014,Italia,Negro,,,,,,52707,2023-06-22,Desfavorable,Fugas leves de aceite
+Víctor,Torres,BH5FE7CXWVBLHSYAA,Volkswagen,Modelo2,2020,Alemania,Azul,,,,,,66412,2022-02-19,Favorable,Sin defectos
+Juan José,Pereira,0XUWE3N4RT9B6WVMP,Volkswagen,Modelo2,2011,Francia,Blanco,2024-08-11,Impacto frontal,9783.98,Media,Capó,102903,2022-08-24,Desfavorable,Sin defectos
+Jan,Pereira,E61M7KED5BA2ZR3MC,Mazda,Modelo3,2022,Italia,Blanco,,,,,,88223,2021-09-17,Favorable,Fugas leves de aceite
+Juan José,Pereira,F7PD65BX1KRCH1L4Y,Renault,Modelo2,2022,Italia,Negro,2021-12-24,Daño menor,13108.76,,,148643,2020-10-31,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,2EB12HSL2N5LR49YB,Seat,Modelo2,2017,Francia,Gris,2021-10-26,Daño por granizo,6135.44,Leve,Parachoques,134246,2023-09-30,Favorable,Sin defectos
+Juan José,Pereira,RP1CRMP2T2WCSLN2D,Mazda,Modelo3,2010,Alemania,Gris,2024-06-14,,13143.32,Grave,Capó,75351,2020-12-25,Favorable,Sin defectos
+Teresa,Rubio,X0NAKYTT3SK35FF1S,Toyota,Modelo1,2018,Francia,Blanco,,,,,,146327,2024-11-16,Desfavorable,Sin defectos
+Luis,Rodríguez,7LM34C2K53PXY175N,BMW,Modelo1,2023,Francia,Rojo,2022-10-01,,5534.82,Grave,Laterales,158586,2024-07-17,Desfavorable,Sin defectos
+Marta,Alonso,U7874B3CHRD1ETRJ7,BMW,Modelo2,2017,Alemania,Negro,2024-08-20,Accidente grave,10510.72,Media,,151991,2023-10-11,Favorable,Luces dañadas
+Jan,Pereira,G4FFEYUAX7EZJ9CB6,Volkswagen,Modelo2,2020,España,Azul,2015-04-03,Daño menor,9372.48,,,172104,2024-04-12,Desfavorable,Frenos OK
+Beatriz,Nuñez,RBWKLZ9RBBUDNCPTT,Toyota,Modelo1,2023,Italia,Negro,2023-06-30,Accidente grave,14078.42,Media,Capó,25764,2021-04-14,Favorable,Frenos OK
+Jan,Pereira,X1YNH285EPYFMCVWD,BMW,Modelo1,2023,Francia,Azul,,,,,,71388,2024-04-10,Desfavorable,Frenos OK
+Antonio,Pereira,RPDZD3TP7MCPYWDAZ,Citroen,Modelo3,2016,Italia,Blanco,,,,,,195951,2021-12-13,Desfavorable,Sin defectos
+Juan José,Pereira,0NEP8F9P90TR0P0CN,Audi,Modelo1,2019,Alemania,Negro,2020-02-08,Daño por granizo,6980.68,Grave,Laterales,164717,2021-03-21,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,GEYNPGRJJFZ2Y0N6R,Fiat,Modelo1,2020,Francia,Blanco,,,,,,161600,2024-10-28,Favorable,Sin defectos
+Jan,Pereira,F5WXGXRVT3SD6P9SZ,Ford,Modelo2,2015,Italia,Negro,2023-03-03,,3090.61,Media,Motor,129384,2020-03-03,Favorable,Frenos OK
+Raúl,Castillo,K41HGKJCNHV18SAN8,Honda,Modelo2,2021,Alemania,Gris,2019-05-31,Daño menor,3174.88,Media,Puertas,57653,2021-06-06,Favorable,Fugas leves de aceite
+Amparo,Navarro,C22PU6MVC2UJMG85E,Renault,Modelo3,2014,Japón,Negro,2022-03-30,,6985.09,Leve,Laterales,163481,2022-03-02,Favorable,Sin defectos
+Jan,Pereira,ZU74RK18WVY77VU5G,Volkswagen,Modelo2,2012,Francia,Blanco,2022-08-28,,6878.84,Leve,,128794,2023-08-20,Desfavorable,Luces dañadas
+Jan,Pereira,UC2LPTMA912R38VM1,Mazda,Modelo3,2021,Francia,Negro,2019-06-27,,6002.43,Media,Parachoques,187314,2021-02-23,Desfavorable,Frenos OK
+Luis,Díaz,CJH4ZS6J0FDP91GBM,Renault,Modelo2,2014,España,Azul,2024-10-02,Accidente grave,6627.22,Media,Capó,88235,2023-06-10,Favorable,Fugas leves de aceite
+Juan José,Pereira,G50BWEJXTLNANFAFU,Honda,Modelo1,2024,Italia,Rojo,2017-11-05,Accidente grave,12714.87,Grave,,121339,2023-12-12,Favorable,Fugas leves de aceite
+Jan,Pereira,R42L0W7KPJ1GA10RU,Volkswagen,Modelo3,2017,Italia,Rojo,,,,,,80096,2021-04-16,Favorable,Fugas leves de aceite
+Silvia,Molina,ENYV6W5UWXNA99KVK,Citroen,Modelo1,2016,Japón,Rojo,2020-09-18,Daño menor,13044.02,Media,,29362,2022-06-03,Desfavorable,Fugas leves de aceite
+Diego Francisco,Méndez,326EAUJS3CH2UPSE4,Peugeot,Modelo3,2010,Japón,Negro,2023-03-22,,12011.54,,,117470,2024-05-02,Desfavorable,Fugas leves de aceite
+Jan,Pereira,MCPMXY920RPFED5XH,Mazda,Modelo2,2012,Japón,Gris,,,,,,198422,2020-12-30,Favorable,Frenos OK
+Dolores,Gil,AFNFNCU1Z3Y654X11,Citroen,Modelo2,2019,Francia,Negro,,,,,,93975,2024-04-25,Desfavorable,Sin defectos
+Diego,Ortega,JRX3NYA2B0RKW1LPV,Mazda,Modelo3,2021,Japón,Rojo,,,,,,138629,2023-03-20,Favorable,Fugas leves de aceite
+Víctor,Fernández,K8THB24PG9YY7U963,Kia,Modelo3,2019,España,Negro,2018-10-20,Accidente grave,13201.03,Leve,,118235,2022-05-14,Favorable,Fugas leves de aceite
+Juan José,Pereira,2LC9LD4SNFABN8XUA,Nissan,Modelo3,2020,Francia,Rojo,2018-04-29,Daño por granizo,9948.0,Leve,Capó,198983,2024-02-17,Desfavorable,Fugas leves de aceite
+Jan,Pereira,7NE0PBN6S3NEWA4H7,Seat,Modelo2,2020,Alemania,Azul,,,,,,132702,2021-11-10,Favorable,Sin defectos
+Juan José,Pereira,RSP8JX6ZSPCZ3SCDP,Volkswagen,Modelo3,2022,Francia,Blanco,2024-08-21,Daño menor,4431.23,,Capó,16306,2024-10-10,Favorable,Luces dañadas
+Juan José,Pereira,75NST69AK1L6Y6215,Volkswagen,Modelo1,2014,Japón,Rojo,2017-09-28,Accidente grave,5646.14,Grave,Motor,139503,2022-12-16,Favorable,Frenos OK
+Antonio,Pereira,4FNSDZZ0ASUDYUMER,Kia,Modelo3,2024,España,Blanco,2023-09-10,,6386.49,Media,,17455,2020-11-26,Desfavorable,Luces dañadas
+Juan José,Pereira,4FUE0NS39CNUNBB36,Kia,Modelo1,2016,Francia,Negro,,,,,,149027,2022-04-06,Desfavorable,Frenos OK
+Jan,Pereira,MBHET3U3KWU2MXFB0,Seat,Modelo3,2017,Francia,Azul,2016-08-14,Daño menor,9361.28,,Capó,141724,2022-06-02,Favorable,Sin defectos
+Juan José,Pereira,TRFUT2B5CCDW6HPH0,Renault,Modelo3,2010,Alemania,Azul,2018-05-05,,14049.49,Media,Capó,151513,2021-06-15,Favorable,Luces dañadas
+Jan,Pereira,ZU6ZJ21U8PE59V4AP,Hyundai,Modelo1,2013,Francia,Rojo,2021-02-25,Daño por granizo,2061.87,Grave,Capó,69047,2023-09-22,Desfavorable,Luces dañadas
+Rubén Carmen,Álvarez,5RFNPNW6YRHACPC2A,Renault,Modelo3,2017,España,Rojo,2024-03-21,,11383.07,Grave,Laterales,194442,2021-04-01,Desfavorable,Frenos OK
+Víctor,Ruiz,3HKZXLHSZE1XKSVEH,Renault,Modelo2,2011,Italia,Gris,2020-10-25,Impacto frontal,5972.26,Grave,Laterales,157406,2021-08-02,Desfavorable,Frenos OK
+Antonio,Pereira,EKYRWH9TYJ0PJ78Z6,Nissan,Modelo3,2015,Alemania,Blanco,,,,,,163811,2024-04-26,Desfavorable,Frenos OK
+Jan,Pereira,02WFSMMLMLRA3VTX1,Ford,Modelo2,2013,Alemania,Gris,2024-12-05,Accidente grave,10550.42,Media,Parachoques,11236,2022-04-21,Favorable,Luces dañadas
+Antonio,Pereira,SCLY67S5R6ZDMR101,Fiat,Modelo2,2014,España,Blanco,,,,,,90593,2021-06-01,Desfavorable,Frenos OK
+Juan José,Pereira,KNVD9HYA6DL7FECK3,Toyota,Modelo3,2020,Francia,Azul,,,,,,48287,2021-12-06,Favorable,Frenos OK
+Juan José,Pereira,V5K0C7D10W7VUHVZ1,Audi,Modelo3,2018,Alemania,Rojo,,,,,,71856,2023-02-09,Favorable,Sin defectos
+María,Pérez,Z4TW0PD1GCLSAS19E,Fiat,Modelo2,2022,Italia,Gris,,,,,,49533,2021-03-26,Desfavorable,Sin defectos
+Antonio,Pereira,1FA305PNRUJXEU72K,Renault,Modelo2,2016,Francia,Gris,,,,,,126257,2022-01-23,Desfavorable,Sin defectos
+Jan,Pereira,9BKYB7SN5JM0WCC7U,Volkswagen,Modelo3,2024,Japón,Blanco,2020-03-05,Accidente grave,11300.73,Media,Motor,151715,2023-04-01,Favorable,Sin defectos
+Antonio,Pereira,AVGV5RCFW5706FL5W,Citroen,Modelo2,2010,Alemania,Rojo,2020-03-23,Daño menor,6110.03,,Parachoques,103149,2021-11-05,Favorable,Fugas leves de aceite
+Luis,Pereira,Z625T8EWENATN7RLB,Kia,Modelo2,2015,Francia,Blanco,2019-04-20,Impacto frontal,11439.08,Grave,Puertas,79723,2022-01-08,Desfavorable,Luces dañadas
+Diego,Gómez,38LBXCU1NVAU8BESS,Opel,Modelo3,2014,Alemania,Blanco,,,,,,118468,2020-12-12,Desfavorable,Sin defectos
+Gloria,Jiménez,75JMEYJYFUNLCAXZP,Mazda,Modelo3,2017,Alemania,Gris,2017-06-16,,4590.27,Media,Laterales,40040,2021-07-18,Favorable,Luces dañadas
+Jan,Pereira,KXM1YSHZRTEDYXDEX,Kia,Modelo2,2011,España,Azul,2020-01-22,Accidente grave,4701.8,,Motor,164024,2021-12-27,Desfavorable,Fugas leves de aceite
+Jan,Pereira,FLLU76D7SASBE7DEU,Peugeot,Modelo1,2011,España,Azul,2019-07-31,,8659.12,Media,Capó,158905,2024-03-08,Favorable,Fugas leves de aceite
+Jorge,Cortés,K3CXA3STTUC2P7F4N,Honda,Modelo1,2012,Japón,Azul,2018-10-17,Daño menor,5178.91,,Motor,73357,2021-05-11,Favorable,Frenos OK
+Antonio,Pereira,W528JKJ9TTTAHR42Z,Fiat,Modelo1,2023,Alemania,Rojo,2019-05-24,Daño menor,4450.27,,,63884,2022-04-27,Desfavorable,Sin defectos
+Raquel,Blanco,5GLCP8GDVD4WAG4RA,BMW,Modelo1,2019,Japón,Gris,,,,,,110243,2023-07-21,Desfavorable,Frenos OK
+Jan,Pereira,T5LJZHGRA29KUSG8R,Opel,Modelo2,2015,España,Negro,2021-12-13,Impacto frontal,12853.98,Media,Puertas,19563,2022-06-29,Desfavorable,Frenos OK
+Juan José,Pereira,VM9VEJBAVV7G6UWJ2,Nissan,Modelo3,2020,Alemania,Gris,2018-12-31,Accidente grave,11678.18,,Puertas,108680,2024-04-15,Desfavorable,Luces dañadas
+Luis,Cortés,4E833297RSC0GAPJM,Renault,Modelo1,2024,Japón,Gris,,,,,,100845,2021-12-28,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,FHH22X5N8TDJFB7TD,Renault,Modelo2,2013,Japón,Blanco,2020-08-06,Daño por granizo,2792.52,Leve,Puertas,154091,2021-12-13,Desfavorable,Sin defectos
+Jan,Pereira,0W739SFL505473HD5,Toyota,Modelo3,2022,Francia,Rojo,,,,,,34082,2024-01-07,Favorable,Fugas leves de aceite
+Jan,Pereira,XLCMP7DFGXJMAU4MS,Peugeot,Modelo1,2011,España,Gris,2021-04-13,Impacto frontal,657.77,Grave,Capó,25478,2020-12-14,Favorable,Sin defectos
+Daniel,Gómez,EVRKBFASBV42Y96UC,Hyundai,Modelo3,2018,Japón,Blanco,2021-07-02,Accidente grave,12081.3,Media,Laterales,113410,2022-03-14,Desfavorable,Fugas leves de aceite
+Alberto,Rubio,P3ERKFY6WAL1XHPLR,BMW,Modelo1,2021,Italia,Negro,2024-05-25,Daño por granizo,8121.68,Media,Parachoques,65127,2022-12-25,Favorable,Fugas leves de aceite
+Jan,Pereira,B7UUSA8AAZHCNCPPP,Ford,Modelo3,2020,Alemania,Gris,,,,,,58647,2023-07-14,Favorable,Frenos OK
+Jorge,Sánchez,EX6N8R8JV8RHR1RDM,Toyota,Modelo2,2023,Francia,Gris,2018-08-18,,10240.46,Leve,,42627,2022-02-10,Desfavorable,Frenos OK
+Antonio,Pereira,ECZUJRJWMYC90CURB,Toyota,Modelo1,2022,Italia,Gris,2017-05-15,Accidente grave,6010.53,Leve,,40156,2021-01-15,Favorable,Fugas leves de aceite
+Antonio,Pereira,X1XT2U7LHD0XCWV4T,Volkswagen,Modelo2,2011,Japón,Azul,2024-02-20,Impacto frontal,13094.14,,Laterales,169976,2024-06-24,Desfavorable,Sin defectos
+Jan,Pereira,TN3ZLKN1AZC2E9VZM,Honda,Modelo2,2020,España,Gris,2016-12-17,Daño menor,3586.63,Grave,Capó,69881,2020-02-22,Desfavorable,Luces dañadas
+Antonio,Pereira,BZ3FXDBUTSNHUC7T4,Volkswagen,Modelo3,2012,España,Negro,2023-05-14,Daño por granizo,1048.81,Leve,,16166,2020-04-09,Favorable,Luces dañadas
+Jan,Pereira,399A9SHHNWWHPB1ZN,Opel,Modelo2,2011,Alemania,Negro,,,,,,79347,2024-04-21,Favorable,Frenos OK
+Antonio,Pereira,7JWUDSVTC5U1NRMA9,Kia,Modelo1,2012,España,Blanco,2017-04-02,,4469.11,Grave,Laterales,164704,2023-01-07,Favorable,Sin defectos
+Jan,Pereira,GJRTKL1CC5XPXW82H,Toyota,Modelo2,2022,Francia,Azul,2015-03-23,Accidente grave,2375.97,,,106570,2022-11-03,Favorable,Fugas leves de aceite
+Jan,Pereira,E9BCEHC1CRTJHLXFZ,Nissan,Modelo2,2020,Francia,Blanco,,,,,,55939,2024-10-15,Favorable,Fugas leves de aceite
+Juan José,Pereira,S4TUXRJH2WS126P1G,Kia,Modelo3,2021,Japón,Rojo,2019-05-07,Daño por granizo,5751.14,,Puertas,80690,2023-12-25,Favorable,Sin defectos
+Juan José,Pereira,BACF9M8HPT2AZK64Z,Citroen,Modelo3,2020,España,Gris,,,,,,128919,2023-04-14,Desfavorable,Sin defectos
+Juan José,Pereira,Y91WMR9MV6GJHJ1YY,Mazda,Modelo3,2010,Italia,Blanco,,,,,,166894,2021-09-27,Desfavorable,Frenos OK
+Jan,Pereira,T06AJ5HPALMLFY334,Peugeot,Modelo3,2022,España,Blanco,2017-07-12,Impacto frontal,13885.81,Leve,Motor,87988,2022-09-20,Desfavorable,Sin defectos
+Juan,Ramos,T0J5UPXK1HC74SHK3,Mazda,Modelo3,2014,España,Gris,2021-03-05,Daño por granizo,4271.5,Media,Capó,127322,2022-12-03,Desfavorable,Sin defectos
+Jan,Vargas,WCCNUC0TS0Z3HSMJZ,BMW,Modelo2,2013,Italia,Rojo,2019-05-05,Accidente grave,3044.44,Leve,,155532,2024-02-16,Favorable,Luces dañadas
+Jan,Pereira,M9BS1D71SVJ1SLFLE,Mazda,Modelo1,2024,España,Gris,2016-12-10,Impacto frontal,2030.96,Media,,55972,2023-08-30,Desfavorable,Sin defectos
+Jan,Ortiz,ML88DSGXY3ND4D37V,Kia,Modelo1,2017,Francia,Rojo,,,,,,84890,2021-02-01,Favorable,Luces dañadas
+Pilar,Martín,8R52X7YZZ4GXLK3VE,Ford,Modelo1,2023,Italia,Gris,,,,,,146424,2020-06-13,Favorable,Sin defectos
+Antonio,Pereira,JZZ1N4DET8X6B13ZA,Peugeot,Modelo3,2019,Italia,Azul,,,,,,121691,2021-07-15,Favorable,Fugas leves de aceite
+Juan José,Pereira,YMDKZBNX6B7BWK39D,Citroen,Modelo1,2024,Alemania,Rojo,,,,,,162674,2021-12-31,Desfavorable,Sin defectos
+Juan José,Pereira,6D24E1ABMFTRRP5U1,Peugeot,Modelo2,2020,Francia,Rojo,,,,,,114758,2020-04-08,Favorable,Frenos OK
+Juan José,Pereira,MFN6U99VW7ZEPKEBS,Mazda,Modelo2,2010,España,Azul,2015-05-22,Daño menor,13434.52,,Puertas,124998,2023-03-16,Favorable,Fugas leves de aceite
+Sergio,Martínez,39MEP2GDY792LSYUU,BMW,Modelo2,2015,Japón,Gris,,,,,,16125,2022-08-13,Desfavorable,Luces dañadas
+Juan José,Pereira,29YK2MK5E8EPP5CLC,Volkswagen,Modelo2,2023,España,Azul,,,,,,176008,2023-05-18,Desfavorable,Luces dañadas
+Jan,Pereira,9L19MFR7Y1WVA01MV,Toyota,Modelo1,2023,Italia,Azul,2016-03-22,Daño por granizo,14056.24,Media,Capó,103149,2022-09-14,Favorable,Luces dañadas
+Jan,Pereira,FF7NLJGV54612WRPT,Seat,Modelo3,2011,Japón,Blanco,,,,,,38530,2021-08-19,Desfavorable,Frenos OK
+Jan,Pereira,9DTU8098NBAXA2W2S,Ford,Modelo3,2016,Italia,Negro,2015-05-21,Impacto frontal,5591.3,Leve,,46002,2024-04-25,Favorable,Fugas leves de aceite
+Jan,Pereira,P3EXEHDA276CC6W8C,Mazda,Modelo1,2018,Italia,Rojo,,,,,,53635,2021-12-10,Favorable,Frenos OK
+Jan,Pereira,DZXP81SLEHVRUFRJY,Citroen,Modelo3,2012,Italia,Blanco,,,,,,128143,2021-11-29,Desfavorable,Frenos OK
+Javier,Muñoz,36YWXZM884MFTL4Y1,Toyota,Modelo2,2013,Alemania,Azul,,,,,,127041,2020-11-18,Desfavorable,Frenos OK
+Juan José,Pereira,0D8R8PXZEDNRJ3NNT,Hyundai,Modelo1,2012,Alemania,Rojo,2022-02-02,Impacto frontal,4819.18,Media,Puertas,181216,2024-05-05,Desfavorable,Luces dañadas
+Beatriz,Navarro,4TNMAPX7EG8PET0HM,Seat,Modelo2,2017,Alemania,Gris,2023-06-23,Impacto frontal,14491.13,Leve,Parachoques,155093,2022-02-03,Desfavorable,Frenos OK
+Antonio,Pereira,J6PED8MLYRCBVVVJ8,Citroen,Modelo1,2019,Japón,Negro,,,,,,14294,2021-05-19,Favorable,Luces dañadas
+Alberto,Sánchez,B70R6YWRTXGWXWBUF,Kia,Modelo2,2023,Francia,Blanco,2020-11-03,Accidente grave,7602.59,,Parachoques,133523,2022-11-17,Desfavorable,Luces dañadas
+Elena Pedro,Álvarez,5V33JVU1YDE8DPEBX,Seat,Modelo2,2011,Alemania,Negro,2023-05-10,Daño por granizo,10675.61,Leve,Laterales,167532,2024-04-10,Desfavorable,Sin defectos
+Jan,Pereira,ZF5V3ARX15PE880CX,Renault,Modelo3,2017,Italia,Negro,2017-07-15,,1876.39,Grave,Puertas,104604,2022-11-01,Favorable,Sin defectos
+Jan,Pereira,974G9A5TH960WR8Y3,Renault,Modelo2,2022,Francia,Blanco,2023-12-29,Daño menor,8167.13,Leve,,158582,2022-10-29,Favorable,Sin defectos
+Antonio,Pereira,KX55993GRVHTH8B73,Renault,Modelo3,2017,Japón,Rojo,2015-06-12,,6536.78,Media,Laterales,151010,2023-09-11,Favorable,Sin defectos
+Jan,Pereira,CNMTS7PPUWY0MV4MM,Ford,Modelo3,2019,Alemania,Azul,,,,,,53267,2024-06-25,Desfavorable,Fugas leves de aceite
+Jan,Pereira,8BY4XU289BCNSPD7M,Ford,Modelo1,2019,Japón,Blanco,2019-09-05,Accidente grave,14728.96,Media,Capó,9652,2021-06-25,Favorable,Luces dañadas
+Jan,Pereira,WD15247L60DSXFGDB,Opel,Modelo3,2020,Francia,Rojo,,,,,,129091,2022-02-16,Favorable,Fugas leves de aceite
+Jan,Pereira,5R6SLEFVNGCFKYMZP,Hyundai,Modelo2,2016,Italia,Blanco,2019-06-10,Impacto frontal,12418.5,Leve,Puertas,182395,2020-11-21,Desfavorable,Frenos OK
+Jan,Pereira,FW2C3SDM7RLZ3DX27,Seat,Modelo3,2019,Japón,Rojo,,,,,,176342,2021-05-06,Desfavorable,Frenos OK
+Antonio,Sanz,9M4TR6VD503UMSTLK,Opel,Modelo1,2019,Alemania,Gris,2022-02-03,Impacto frontal,5008.17,Grave,Laterales,32529,2020-01-17,Desfavorable,Luces dañadas
+Juan José,Pereira,R2AJXP29XSM1GFZ3J,Citroen,Modelo1,2017,Francia,Negro,2021-12-09,,6771.33,,Puertas,137284,2020-12-10,Desfavorable,Frenos OK
+Antonio,Pereira,LAX6LNDP0DKS9WTTK,Kia,Modelo2,2016,Japón,Rojo,,,,,,175237,2021-05-14,Favorable,Fugas leves de aceite
+Antonio,Pereira,3FG607HK5PGDLJ79E,Seat,Modelo3,2010,Francia,Blanco,2016-03-17,Impacto frontal,7752.66,Leve,Laterales,121068,2021-08-02,Favorable,Fugas leves de aceite
+Jan,Pereira,DJ491HR5XK6KRSL5H,Kia,Modelo2,2014,Alemania,Rojo,2015-09-21,Daño menor,14592.33,Media,Puertas,50311,2023-07-24,Favorable,Sin defectos
+Juan José,Pereira,48M5NN3JYDXP4NRL9,Fiat,Modelo2,2021,España,Negro,2022-01-26,Impacto frontal,13260.51,Media,,50046,2020-04-06,Favorable,Frenos OK
+Jan,Pereira,DPUR8AUYN52RE78S3,Volkswagen,Modelo1,2018,Francia,Negro,2023-11-05,Daño por granizo,4405.21,Media,Capó,195836,2020-08-18,Favorable,Sin defectos
+Jan,Pereira,4MD4PM74LBCMVAVSD,Opel,Modelo3,2015,Japón,Gris,2019-07-09,Daño menor,13710.44,Leve,,160899,2021-06-03,Desfavorable,Fugas leves de aceite
+Jan,Pereira,NDTTDHVZPLRRTPWXZ,Fiat,Modelo2,2012,Japón,Rojo,,,,,,166663,2022-05-14,Favorable,Frenos OK
+Juan José,Pereira,0ETFTM28U1HPSNZPW,Honda,Modelo3,2011,España,Rojo,2017-02-18,Daño menor,10688.63,Leve,Capó,148596,2024-10-01,Favorable,Fugas leves de aceite
+Teresa,Marín,3BWNHFNTBD5S4LZUW,Hyundai,Modelo1,2015,Alemania,Rojo,2015-10-15,Daño menor,8025.21,Media,Parachoques,159814,2022-06-26,Desfavorable,Luces dañadas
+Jan,Pereira,5XN0BSG6Y3CZ5RGKM,Fiat,Modelo1,2019,Italia,Gris,2016-10-18,Daño menor,3324.01,Leve,Motor,22079,2020-06-16,Desfavorable,Luces dañadas
+Jan,Pereira,1MHHW4XVX9EYYA1KC,BMW,Modelo3,2022,Italia,Azul,,,,,,157955,2023-10-20,Desfavorable,Sin defectos
+Juan José,Pereira,YK49073BFGV6ZL1KS,Nissan,Modelo3,2023,España,Negro,2024-04-14,,4343.39,Leve,Motor,140692,2024-11-27,Desfavorable,Frenos OK
+Antonio,Pereira,EJSXNT15KAP1VK7L5,Hyundai,Modelo2,2024,España,Azul,2022-06-01,,4991.84,,Motor,89735,2021-03-08,Desfavorable,Fugas leves de aceite
+Jan,Pereira,WYW7ZF0JHVMXCLT7V,Peugeot,Modelo1,2024,Alemania,Rojo,2020-09-07,Impacto frontal,3605.77,Grave,,179756,2023-05-13,Favorable,Fugas leves de aceite
+Jan,Pereira,X7HLAZ7U61D5K25K7,BMW,Modelo2,2019,Japón,Azul,,,,,,66777,2023-08-22,Favorable,Fugas leves de aceite
+Jan,Pereira,VKEBK7MNH3RH44JPP,Kia,Modelo2,2011,España,Azul,2024-10-14,Daño menor,6545.46,Grave,Laterales,170706,2022-03-09,Desfavorable,Frenos OK
+Jan,Pereira,7PHS17FWUA5DJHVMW,Toyota,Modelo3,2021,Alemania,Azul,2017-08-12,Daño por granizo,2116.29,Grave,Capó,102438,2023-10-13,Desfavorable,Fugas leves de aceite
+Jan,Pereira,4UNUMUNPV4J2MA1MV,Mazda,Modelo2,2020,Japón,Negro,2023-11-26,Daño menor,14892.25,Leve,Puertas,163497,2022-01-19,Desfavorable,Frenos OK
+Jan,Pereira,P21Y9GCSZV59M0LSA,Hyundai,Modelo3,2018,Francia,Azul,,,,,,175058,2023-12-07,Desfavorable,Sin defectos
+José,Muñoz,267RYDDSCC258X5NS,Seat,Modelo3,2022,Alemania,Gris,2015-10-28,Daño por granizo,7508.61,Grave,Puertas,30856,2023-03-23,Favorable,Sin defectos
+Jan,Pereira,SH3H0DPAESA53AXYL,Ford,Modelo1,2018,Francia,Azul,2021-04-07,Daño menor,6089.45,Media,Parachoques,50385,2023-07-27,Desfavorable,Luces dañadas
+Carlos Rosa,Morales,T1VBZV5ZFDHS93WR5,Toyota,Modelo1,2012,España,Rojo,2019-10-10,,2431.41,Leve,Puertas,98436,2021-11-28,Desfavorable,Luces dañadas
+Beatriz,Domínguez,FDGGN1GV99BX9FS0Y,Nissan,Modelo2,2014,Japón,Negro,2018-07-31,Daño por granizo,4141.65,,Capó,122390,2023-11-11,Desfavorable,Frenos OK
+Antonio,Pereira,T5A7E900M5NL8K6UG,Opel,Modelo2,2022,España,Negro,,,,,,124939,2023-01-02,Desfavorable,Luces dañadas
+Enrique,Hernández,BTLNG19G35JUUV6BG,BMW,Modelo3,2024,Italia,Azul,2020-09-26,Impacto frontal,11926.61,Media,Laterales,136355,2022-06-11,Desfavorable,Sin defectos
+Jan,Pereira,PZ4VWZ29KPSEJM9TD,Ford,Modelo3,2017,España,Rojo,2018-07-05,Impacto frontal,4692.78,Leve,Puertas,105787,2024-07-01,Favorable,Sin defectos
+Isabel,Domínguez,WT4B182579DABZLK0,Mazda,Modelo2,2012,Italia,Gris,,,,,,99472,2020-08-01,Favorable,Fugas leves de aceite
+Cristina,Santos,V2ECBEULV4HGDT96J,BMW,Modelo1,2015,Japón,Rojo,,,,,,164374,2021-05-29,Favorable,Fugas leves de aceite
+Antonio,Pereira,AYAMWJ7W2UA1TF9CW,Volkswagen,Modelo2,2015,España,Gris,2021-04-13,Accidente grave,8762.4,Media,Laterales,129365,2021-03-13,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,W8BUC97R0XPFC269M,Opel,Modelo3,2022,España,Gris,,,,,,187578,2024-11-04,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,8MSCWP7YY35NT3LEM,Seat,Modelo1,2021,España,Rojo,,,,,,59626,2020-11-12,Favorable,Fugas leves de aceite
+Mónica Carlos,Lozano,G5SPH3NXBGEAYW3JX,Renault,Modelo1,2012,Italia,Negro,2021-08-10,Impacto frontal,1621.77,Media,Parachoques,23894,2024-06-12,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,7FW5ZN4MSD60V4XAJ,Opel,Modelo2,2023,España,Azul,,,,,,88408,2024-10-06,Favorable,Frenos OK
+Jan,Pereira,LWSH8RVX2CD9VAHR6,Volkswagen,Modelo2,2016,Francia,Negro,2017-06-25,Accidente grave,7469.28,,Parachoques,169032,2022-06-13,Favorable,Luces dañadas
+Jorge,Álvarez,80RZJ51F8VYBKR1X5,Audi,Modelo2,2017,Italia,Rojo,,,,,,119536,2020-10-24,Desfavorable,Frenos OK
+Jan,Pereira,R3XH4DNBD9S32PZ30,Citroen,Modelo2,2010,Italia,Rojo,2017-09-13,Daño menor,7509.91,,Capó,126816,2024-03-23,Favorable,Luces dañadas
+Daniel,Santos,T83ZTG29SPNH0LSDP,Ford,Modelo1,2020,Japón,Blanco,2020-04-26,Daño menor,2067.43,,Parachoques,182858,2020-10-01,Favorable,Fugas leves de aceite
+Jan,Pereira,DUML739GAB9C160HN,Mazda,Modelo2,2023,Alemania,Blanco,2021-05-29,Daño por granizo,12481.68,Media,Puertas,197316,2022-02-22,Desfavorable,Fugas leves de aceite
+Jan,Pereira,3LCP131GR8HD4PMWC,Ford,Modelo1,2019,España,Blanco,2020-12-10,,10997.28,Media,Motor,7328,2022-08-19,Favorable,Frenos OK
+Enrique Carlos,Iglesias,5Z27DE2JNE39JL4BG,Seat,Modelo2,2011,Japón,Blanco,,,,,,152429,2022-02-24,Favorable,Luces dañadas
+Antonio,Pereira,RU51G1G9HG5MUE0P7,Citroen,Modelo3,2023,España,Azul,2015-02-02,,12964.43,Media,Parachoques,38595,2023-01-17,Desfavorable,Luces dañadas
+Juan José,Pereira,BTVZMN3HWCFDSGVJK,Seat,Modelo1,2020,España,Negro,,,,,,90683,2022-10-22,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,NSGYN6MA44851HMLB,Volkswagen,Modelo3,2015,Alemania,Gris,2021-08-30,Daño por granizo,1522.64,Media,,54054,2022-07-17,Desfavorable,Luces dañadas
+Jan,Pereira,0F4TFGXTUD0HNW8CY,Mazda,Modelo3,2019,España,Gris,2016-01-02,,12545.57,,,151561,2024-09-10,Desfavorable,Sin defectos
+Enrique,Ramos,BSAW4W8A174K1ACUM,Ford,Modelo1,2015,Italia,Gris,,,,,,162869,2020-02-21,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,8Y947Z8PMWJ22GPGG,Hyundai,Modelo1,2016,Japón,Azul,,,,,,165119,2020-11-06,Favorable,Fugas leves de aceite
+Jan,Pereira,3XUJXE3Z7W3078091,Mazda,Modelo1,2014,Italia,Azul,2019-07-13,Impacto frontal,7349.14,Grave,Parachoques,26715,2021-08-01,Desfavorable,Frenos OK
+Jan,Pereira,D5YMCM7WFLRG9DK9T,Nissan,Modelo2,2014,Japón,Negro,,,,,,153138,2023-08-28,Desfavorable,Luces dañadas
+Jan,Marín,KY8SNMU0URACN8D4R,Nissan,Modelo1,2023,Japón,Rojo,,,,,,44876,2023-07-25,Desfavorable,Frenos OK
+Jan,Pereira,MD0282YZP09JZFPUP,Renault,Modelo2,2013,Japón,Gris,2017-05-25,Accidente grave,3536.06,Media,Laterales,121374,2023-11-30,Desfavorable,Fugas leves de aceite
+Amparo,Díaz,2ZBBEZX21LH34BUGB,Citroen,Modelo3,2019,Alemania,Blanco,2022-03-21,Accidente grave,10316.65,,Motor,85788,2023-10-11,Favorable,Fugas leves de aceite
+Antonio,Pereira,G06NWJ0Z2R08JMJ6D,Ford,Modelo3,2017,Alemania,Gris,2024-03-02,Daño menor,2779.67,Leve,Capó,22890,2020-04-11,Favorable,Frenos OK
+Antonio,Pereira,K9WN94A6E4PYWKM1S,Nissan,Modelo2,2021,España,Azul,,,,,,162945,2022-11-16,Desfavorable,Sin defectos
+Enrique,Nuñez,S97NHLVLFEWGR6UVW,Citroen,Modelo3,2020,España,Blanco,2017-10-20,Impacto frontal,5927.06,Leve,Parachoques,35248,2024-06-18,Desfavorable,Sin defectos
+Juan José,Pereira,15EHCSGP4X4KYX4Y3,Renault,Modelo2,2023,España,Blanco,2019-01-06,,11658.69,Media,,115989,2020-01-29,Favorable,Luces dañadas
+Jan,Pereira,8KVK2TKG5UW2U7THS,Ford,Modelo1,2017,Italia,Negro,2024-05-30,Daño menor,7746.95,Grave,Laterales,129500,2021-03-28,Desfavorable,Sin defectos
+Jan,Pereira,KY1D91MK05K4UKCFE,Citroen,Modelo2,2012,Alemania,Rojo,2018-01-23,Daño por granizo,5006.72,Grave,,131036,2023-04-25,Favorable,Frenos OK
+Rafael Javier,Silva,Y1UG4SCFRSL8421G4,Toyota,Modelo3,2019,Japón,Blanco,2019-12-10,Accidente grave,3370.52,Grave,,25343,2020-08-27,Favorable,Frenos OK
+Antonio,Pereira,FDYW8NDWWFU2BX1GR,Hyundai,Modelo3,2010,Italia,Rojo,2020-07-31,Daño menor,4736.25,,Parachoques,31144,2020-01-17,Desfavorable,Fugas leves de aceite
+Pablo,Ramos,5HE5X6FZML9ZG9U7U,Audi,Modelo2,2019,Italia,Blanco,2024-10-10,Daño menor,9592.16,Leve,,126108,2023-01-01,Favorable,Fugas leves de aceite
+Antonio,Pereira,GFT7MWGHMKL72WN2D,Volkswagen,Modelo2,2016,Francia,Rojo,,,,,,164476,2023-12-13,Desfavorable,Fugas leves de aceite
+Juan,Pereira,KRPRXKTHK7KYP9VX1,Hyundai,Modelo3,2023,España,Rojo,,,,,,52961,2020-01-25,Favorable,Frenos OK
+Antonio,Pereira,SCHVZ4J95DZ7RNMMD,BMW,Modelo3,2020,Alemania,Negro,2017-10-31,Accidente grave,11769.01,,Puertas,114892,2022-02-01,Favorable,Sin defectos
+Antonio,Pereira,CT0VYLG5XFTAEJ2M5,Toyota,Modelo3,2022,Japón,Blanco,2020-03-14,Impacto frontal,3104.91,Leve,Puertas,46077,2020-07-01,Favorable,Frenos OK
+Ana,Ortiz,VFDBUKR0B6C4S9GG8,Nissan,Modelo3,2012,España,Blanco,2023-08-22,Daño por granizo,5688.2,Grave,,188003,2021-07-16,Desfavorable,Luces dañadas
+Juan José,Pereira,V1M35DTFDP4FKNFNM,Seat,Modelo3,2015,España,Azul,2016-04-21,Impacto frontal,3220.52,Media,Motor,140493,2023-04-06,Desfavorable,Luces dañadas
+Juan José,Pereira,21FMKMU21USL7RVZM,Honda,Modelo2,2016,Japón,Negro,,,,,,136785,2022-06-12,Favorable,Sin defectos
+Juan José,Pereira,B1ZW891EZMR1CUWK9,Peugeot,Modelo3,2023,Alemania,Blanco,2016-04-10,Impacto frontal,8954.14,Media,Parachoques,177723,2021-02-21,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,62JFJGMX46AFTYR2B,Nissan,Modelo1,2018,Italia,Negro,,,,,,198406,2024-11-06,Desfavorable,Frenos OK
+Antonio,Pereira,2N5EG3BCX69YCHMNA,Opel,Modelo2,2021,España,Blanco,2024-06-23,Daño por granizo,4448.16,Media,Capó,71662,2021-12-27,Desfavorable,Frenos OK
+Gloria,Blanco,M42LR6GDLR5KHMVN9,Renault,Modelo1,2018,Alemania,Blanco,2020-01-12,Accidente grave,9156.54,,Capó,168020,2022-06-12,Desfavorable,Sin defectos
+Jan,Pereira,B68H2X4S9ZTUDZVFN,Hyundai,Modelo2,2010,Francia,Gris,,,,,,181474,2021-03-28,Desfavorable,Frenos OK
+Jan,Pereira,DBNKFRXX808V9GDZR,Audi,Modelo1,2013,Alemania,Rojo,2018-12-05,Daño menor,8721.32,Media,Puertas,77832,2022-07-16,Favorable,Luces dañadas
+Antonio,Pereira,ZATGLCXY5TF75ZUR0,Ford,Modelo2,2014,Japón,Negro,,,,,,157642,2022-06-27,Favorable,Sin defectos
+Antonio,Pereira,UG7ANZP29XCCY6S55,Mazda,Modelo2,2019,Francia,Azul,2016-04-08,Daño menor,11053.99,Leve,Puertas,154186,2024-05-30,Desfavorable,Sin defectos
+Jan,Pereira,RESJW9FE6LZRKP5T9,Honda,Modelo3,2017,Italia,Blanco,2019-08-19,Impacto frontal,8208.13,Media,Laterales,125828,2022-08-06,Favorable,Luces dañadas
+Patricia,Romero,TB7APMM20M40FVXA2,Toyota,Modelo3,2010,Alemania,Negro,,,,,,67897,2024-09-23,Desfavorable,Sin defectos
+Daniel,Martínez,G8MAUW4KZPKUERKC4,Mazda,Modelo2,2010,Italia,Gris,2016-03-17,Accidente grave,4195.97,,,110372,2022-05-03,Desfavorable,Sin defectos
+Roberto Miguel,Castillo,PX4S4PV9C23N5U001,BMW,Modelo3,2011,España,Azul,,,,,,155883,2020-04-25,Desfavorable,Sin defectos
+Elena,López,R3EJS8Y5MW5B8KXUX,Nissan,Modelo1,2010,Francia,Negro,2020-03-18,Accidente grave,14194.65,,Capó,75562,2020-01-25,Desfavorable,Sin defectos
+Rosa,Castro,U34ZJ310M88G49VJ3,Nissan,Modelo2,2015,Japón,Azul,,,,,,102603,2023-10-05,Favorable,Luces dañadas
+Ana,Díaz,4MD1BLG19A58ENLPJ,Seat,Modelo3,2016,Italia,Rojo,2016-11-13,,603.13,Leve,Capó,175514,2024-09-16,Favorable,Frenos OK
+Antonio,Pereira,DMCEBS0DHE16441RM,Seat,Modelo3,2012,Francia,Azul,2021-07-30,Daño por granizo,10576.51,Leve,Puertas,8154,2024-03-08,Favorable,Frenos OK
+Pablo,González,S9DF7GTL3E0HWNZSG,Audi,Modelo2,2013,Alemania,Gris,2017-04-22,Daño menor,14205.13,Grave,Puertas,96456,2020-03-23,Desfavorable,Fugas leves de aceite
+Jan,Pereira,5J6WDG4T26VADYDBX,Honda,Modelo2,2020,Alemania,Gris,2024-10-12,,14094.34,Media,,33434,2023-04-22,Favorable,Sin defectos
+Juan José,Pereira,KPPT6T1FYTN7KJ069,Renault,Modelo3,2017,Japón,Gris,2022-12-29,Daño menor,11890.24,,,180823,2022-07-03,Favorable,Sin defectos
+Jan,Pereira,9ZJATC1C81LL0C932,Mazda,Modelo3,2023,Italia,Azul,2020-06-10,Impacto frontal,11738.52,Grave,,182838,2022-11-04,Favorable,Sin defectos
+Eva,Castro,AC10M2W35PREW3AXW,Nissan,Modelo2,2023,Japón,Gris,,,,,,63261,2024-02-14,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,XZAZ53BTM6DJTNFFN,Nissan,Modelo3,2016,Japón,Gris,,,,,,38489,2022-08-04,Desfavorable,Fugas leves de aceite
+Jan,Pereira,2MY7AD17GBRMXR41J,Renault,Modelo1,2021,Alemania,Rojo,,,,,,175870,2023-06-02,Desfavorable,Fugas leves de aceite
+Rosa María,Santos,2K6BCENSRXNP5UC5J,Opel,Modelo1,2022,Alemania,Negro,2020-05-07,Daño menor,6857.83,Media,Laterales,129841,2020-11-23,Favorable,Fugas leves de aceite
+Juan José,Pereira,X1PW8NPX56MP9UDP9,Seat,Modelo2,2010,Japón,Rojo,,,,,,179484,2023-10-09,Favorable,Luces dañadas
+Diego,Iglesias,HL9E8ECLTP9DPXX73,Renault,Modelo1,2016,España,Blanco,2015-03-25,Daño por granizo,3023.04,Media,Laterales,45168,2021-11-19,Desfavorable,Luces dañadas
+Antonio,Pereira,4Y3CTA8YMKSP788RU,Seat,Modelo3,2013,Japón,Gris,2017-05-18,,2330.31,Grave,Parachoques,168331,2020-01-06,Favorable,Fugas leves de aceite
+María,Martínez,36VSC82YP1Z3BM8A7,Citroen,Modelo3,2018,Francia,Azul,,,,,,78932,2020-08-30,Desfavorable,Fugas leves de aceite
+Jan,Pereira,PH4LJ50VWKEB8DLC8,Peugeot,Modelo2,2019,Alemania,Azul,2024-04-24,,10828.97,Media,Capó,152371,2024-09-29,Favorable,Frenos OK
+Jan,Pereira,7E5016APNXREVH1R2,Fiat,Modelo2,2022,Francia,Negro,,,,,,84417,2024-12-27,Desfavorable,Sin defectos
+Jan,Pereira,73KWWB7D3ULM0RK04,Fiat,Modelo1,2020,Francia,Negro,2016-05-09,Daño menor,8212.65,Grave,Laterales,132150,2023-09-01,Desfavorable,Frenos OK
+Alejandro,Romero,V5SLEFMNG22UJZZZS,BMW,Modelo3,2022,Japón,Rojo,2023-11-07,Accidente grave,13873.95,Leve,Parachoques,94203,2023-05-12,Desfavorable,Luces dañadas
+Jan,Pereira,NR5F622N7MT7XT09F,Mazda,Modelo3,2011,Japón,Blanco,2015-06-06,Daño menor,13110.77,Grave,Motor,60364,2024-02-16,Favorable,Luces dañadas
+Jan,Pereira,3WNXYEAKEJ6J169Z8,Volkswagen,Modelo3,2022,Alemania,Rojo,2022-03-05,,9121.91,Leve,Parachoques,19113,2024-09-11,Desfavorable,Frenos OK
+Jan,Pereira,UJ8BUVD5LX8D76P8B,Nissan,Modelo3,2022,Italia,Blanco,2023-05-23,Impacto frontal,11861.85,Grave,Parachoques,102720,2023-06-29,Desfavorable,Luces dañadas
+Jan,Pereira,H5UGVJBMGBARYKSVF,Volkswagen,Modelo3,2014,España,Negro,2024-01-15,Accidente grave,542.0,,Laterales,43621,2020-04-25,Favorable,Sin defectos
+Antonio,Pereira,7HBAL82BF349CG4HF,Ford,Modelo1,2024,España,Gris,2016-01-01,Daño por granizo,8400.7,Grave,Motor,37193,2021-10-23,Desfavorable,Fugas leves de aceite
+Jan,Pereira,NG9C1GKV5PMT5EE4J,Fiat,Modelo2,2017,Italia,Rojo,2022-10-16,Impacto frontal,12621.82,,,172183,2022-07-08,Desfavorable,Luces dañadas
+Patricia,Gómez,VC03VAKBWJ21DJ0F9,Nissan,Modelo1,2017,Francia,Azul,2023-07-01,Daño por granizo,3879.28,Grave,Capó,190970,2022-10-14,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,78V104XYWSANCW5J6,Ford,Modelo1,2018,Alemania,Rojo,2024-08-18,,3098.94,Grave,Parachoques,141986,2021-03-04,Desfavorable,Frenos OK
+Beatriz,Castillo,W03V0RSV83U9T0BTU,Ford,Modelo1,2021,Francia,Blanco,,,,,,92906,2024-09-02,Desfavorable,Luces dañadas
+Juan José,Pereira,2CNTJ21BBFGTCCTTU,Citroen,Modelo2,2024,España,Negro,2018-11-16,,11953.79,Grave,Puertas,144653,2022-07-21,Favorable,Sin defectos
+Juan José,Pereira,01CK47Z2MUEX3H23F,Nissan,Modelo3,2019,Francia,Azul,2018-05-05,Daño menor,1072.18,Grave,,27074,2024-06-24,Favorable,Sin defectos
+Antonio,Pereira,EE0KAW733SHC7RUNM,Opel,Modelo1,2011,Alemania,Gris,,,,,,194587,2022-09-06,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,BT2FMWWTMLZGLS29C,Toyota,Modelo1,2014,Japón,Blanco,,,,,,12198,2020-11-02,Desfavorable,Luces dañadas
+Alejandro,Gil,CD6LNRGMYKEW0M12H,Mazda,Modelo1,2014,Italia,Blanco,2018-02-07,Impacto frontal,5067.23,,Motor,39484,2022-02-27,Desfavorable,Fugas leves de aceite
+Jorge,López,FUCBL50U22KBZ9WK3,Seat,Modelo1,2014,Italia,Gris,,,,,,63212,2022-06-10,Desfavorable,Fugas leves de aceite
+Raúl,Muñoz,X590WHE50A09D4VM0,Audi,Modelo1,2016,Alemania,Gris,,,,,,107629,2020-01-02,Desfavorable,Frenos OK
+Jan,Pereira,U7BZ5RGPMWX6WPZBT,Peugeot,Modelo3,2014,Italia,Rojo,2024-01-16,Accidente grave,14577.1,Media,,75579,2023-11-26,Favorable,Fugas leves de aceite
+Jan,Pereira,EZH4PAEPWVNJ2YPEX,Citroen,Modelo3,2024,Alemania,Negro,,,,,,82182,2023-08-07,Favorable,Frenos OK
+Jan,Pereira,UF881AY537P4VLWCJ,BMW,Modelo3,2020,Alemania,Rojo,2024-11-22,,13076.95,Leve,Capó,70345,2024-06-27,Desfavorable,Frenos OK
+Jan,Pereira,8R3DN3FMZFEFLTFAA,Toyota,Modelo1,2024,España,Azul,,,,,,187797,2022-02-02,Favorable,Sin defectos
+Sergio,Medina,GNAADFPHX7WK7M4LD,Fiat,Modelo1,2023,Alemania,Azul,2016-02-09,,14171.66,,,180135,2023-06-28,Desfavorable,Frenos OK
+Jan,Pereira,F6HJ7L8GK2PFL0N3Z,Toyota,Modelo1,2024,Alemania,Rojo,,,,,,185188,2021-10-07,Desfavorable,Frenos OK
+Antonio,Pereira,5WG23GHNLRN2UJVW0,Nissan,Modelo1,2020,Francia,Blanco,2017-09-17,Accidente grave,4970.53,Grave,Motor,48794,2023-04-25,Favorable,Fugas leves de aceite
+Juan José,Pereira,4415MX5W3DZ3CG9YT,Citroen,Modelo2,2021,Japón,Azul,,,,,,165710,2020-02-23,Desfavorable,Luces dañadas
+Jan,Pereira,2YS8JMTC0Z312CMNY,Honda,Modelo3,2021,Japón,Gris,2016-06-26,,9395.96,Leve,,88257,2023-04-09,Desfavorable,Luces dañadas
+Daniel,Silva,6TZ7AYDW4JTM7BR3K,Volkswagen,Modelo2,2021,España,Rojo,2019-09-04,Impacto frontal,8334.62,,Parachoques,26336,2024-06-29,Favorable,Frenos OK
+Mónica,Lozano,2XRP06RNE635XU92K,Toyota,Modelo1,2023,España,Blanco,2020-01-20,,2120.0,Media,,10384,2021-02-20,Desfavorable,Frenos OK
+Javier,Muñoz,J7CE28CNXFXZXVLRE,Mazda,Modelo3,2013,Italia,Rojo,2018-03-16,Accidente grave,7317.05,Media,Laterales,184743,2022-06-06,Desfavorable,Sin defectos
+Antonio,Pereira,JASCVA84ERRF4JFKV,BMW,Modelo1,2024,España,Rojo,2023-09-27,Daño por granizo,8834.3,,Motor,48121,2022-05-19,Favorable,Luces dañadas
+Antonio,Pereira,5J4YTY3G0SMN1XU40,Hyundai,Modelo3,2010,Japón,Rojo,2020-09-07,Impacto frontal,5785.28,Leve,,127066,2021-06-11,Desfavorable,Sin defectos
+Jan,Pereira,GSK7M3844V51G1K86,Peugeot,Modelo1,2014,Japón,Blanco,,,,,,20109,2024-11-11,Desfavorable,Sin defectos
+Jan,Pereira,E0TEME00KHVHUNXKY,Mazda,Modelo1,2023,Alemania,Rojo,2020-02-07,Daño menor,1085.71,Leve,Capó,70523,2023-11-08,Favorable,Fugas leves de aceite
+Juan José,Pereira,GB73741DDGU5C3UKV,Toyota,Modelo1,2023,Japón,Blanco,2021-05-06,Daño menor,4420.57,Media,Puertas,183131,2020-11-20,Desfavorable,Luces dañadas
+Juan José,Pereira,JS7Z97EGR2Y1VPV5F,Seat,Modelo2,2016,Italia,Negro,,,,,,63485,2020-03-10,Desfavorable,Frenos OK
+Juan José,Pereira,P3NCRE5LV8XAYC8GZ,Mazda,Modelo3,2022,Japón,Azul,2015-12-20,,5407.89,Grave,Laterales,55495,2021-09-02,Favorable,Frenos OK
+Jan,Pereira,LZ8DFRE5C4T0W0P39,Seat,Modelo1,2016,España,Rojo,,,,,,118204,2021-11-04,Desfavorable,Fugas leves de aceite
+Jan,Pereira,4275BYYAK9UHMHUMW,BMW,Modelo1,2023,Italia,Rojo,2019-04-21,Accidente grave,6984.56,Media,Parachoques,57034,2023-05-18,Desfavorable,Fugas leves de aceite
+Francisco,Suárez,NCY3R2TPFNVZ1JAV8,Audi,Modelo2,2022,España,Negro,,,,,,114124,2023-11-11,Favorable,Fugas leves de aceite
+Jan,Pereira,RMTX33Y9CD6CMSAM2,Renault,Modelo1,2014,Japón,Azul,2019-06-24,Impacto frontal,5867.7,Grave,Laterales,155280,2023-12-18,Desfavorable,Frenos OK
+Antonio,Pereira,PGGRSL9C30X94S62D,Hyundai,Modelo1,2015,Francia,Blanco,2023-09-21,Impacto frontal,3257.88,,Laterales,57594,2021-03-02,Favorable,Sin defectos
+Juan José,Pereira,R1VLWTTVT56TBU3SA,Toyota,Modelo1,2024,Italia,Azul,2023-07-05,Accidente grave,994.39,,Capó,15362,2024-04-25,Desfavorable,Luces dañadas
+Jan,Pereira,2XE8U97BB1ZD69BVE,Opel,Modelo3,2021,Alemania,Rojo,2018-08-03,Daño menor,3007.69,,Capó,198011,2021-02-08,Favorable,Frenos OK
+Jan,Pereira,G6WYD6PXG5AN5DFWS,Nissan,Modelo2,2022,Italia,Azul,2021-12-15,Daño por granizo,5149.93,Media,,142325,2020-11-21,Favorable,Frenos OK
+Gloria,Delgado,0LZK9TL8Y1Y1GH19Z,Seat,Modelo2,2021,Francia,Rojo,2022-08-11,Impacto frontal,12369.81,Grave,Capó,186435,2020-05-06,Favorable,Fugas leves de aceite
+Eva,Ortiz,7GCGTV662ELELNV0K,Kia,Modelo1,2015,Italia,Azul,2022-01-26,Daño menor,3752.41,Leve,Parachoques,185174,2022-06-13,Favorable,Sin defectos
+Juan José,Pereira,TZLZ3VGJ91V32NX48,Seat,Modelo3,2010,Italia,Rojo,,,,,,130116,2020-09-01,Favorable,Luces dañadas
+Antonio,Pereira,ENV8CG76EPZ8RRLFM,Volkswagen,Modelo2,2011,Italia,Azul,2022-10-17,Accidente grave,10653.48,Leve,Parachoques,16525,2021-07-03,Favorable,Sin defectos
+Jan,Pereira,U9P4GVRNSSNS7RHG4,Volkswagen,Modelo2,2016,Alemania,Gris,2022-12-07,Daño por granizo,10542.06,,Parachoques,176065,2023-04-13,Favorable,Luces dañadas
+Jan,Pereira,RHXRSFFDYXJTVWKD5,Citroen,Modelo1,2011,Francia,Azul,,,,,,156455,2021-06-19,Favorable,Luces dañadas
+Elena,Méndez,H38GL1N78N6WNFMDK,Nissan,Modelo3,2015,Francia,Blanco,,,,,,184761,2020-07-03,Favorable,Sin defectos
+Antonio,Pereira,NKCAW7ESZBT0G8DDX,Mazda,Modelo1,2024,España,Blanco,2019-06-27,,12334.02,Media,Laterales,58177,2022-07-19,Desfavorable,Frenos OK
+Jan,Pereira,SLF9WMDBWMU0H12JM,Toyota,Modelo2,2013,Alemania,Rojo,,,,,,130948,2020-10-30,Desfavorable,Frenos OK
+Jan,Pereira,XEAZPG7JCCZMU4VB6,Hyundai,Modelo2,2024,Italia,Azul,2023-12-18,Daño por granizo,5695.07,Media,Puertas,118279,2023-12-25,Favorable,Fugas leves de aceite
+Jan,Pereira,XHZP2BRT0AR9UNNG9,Seat,Modelo2,2023,Francia,Gris,,,,,,44882,2021-06-27,Desfavorable,Frenos OK
+Nuria,Castro,ABRL6MBJ1A7354PJN,Peugeot,Modelo1,2015,Italia,Rojo,2020-02-16,Daño por granizo,11247.54,Leve,Motor,27604,2022-08-13,Favorable,Fugas leves de aceite
+Jan,Pereira,FPJ8ZWKDPZ1LJ26J9,Nissan,Modelo3,2013,Italia,Azul,2016-07-29,Daño por granizo,11451.35,Grave,Puertas,34246,2024-04-19,Favorable,Luces dañadas
+Diego,Nuñez,346DXGSYUP2MWMSMA,Mazda,Modelo1,2019,Italia,Blanco,2024-09-14,Daño menor,14224.84,,Laterales,111937,2024-11-09,Desfavorable,Fugas leves de aceite
+Jan,Pereira,YU04MMD6X1EF13FRV,Nissan,Modelo3,2018,Japón,Negro,,,,,,119415,2024-05-11,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,JMDYPH64EEF6GAE32,Citroen,Modelo3,2019,España,Gris,2021-07-16,Daño menor,3707.59,Media,Puertas,115397,2024-08-19,Favorable,Fugas leves de aceite
+Andrés,Torres,0TV7E3UV6K4R88WCA,Hyundai,Modelo2,2021,Alemania,Gris,,,,,,95426,2022-05-13,Favorable,Luces dañadas
+Ana,Álvarez,NJ53SFS0A10S1W4X9,Citroen,Modelo2,2013,Alemania,Negro,2024-02-13,Daño por granizo,3510.37,Media,Laterales,32157,2023-07-18,Favorable,Sin defectos
+Rafael,Pérez,0ETSH9VCMS50D7RWG,Citroen,Modelo2,2022,Japón,Rojo,2016-05-28,Impacto frontal,4743.98,Media,,73287,2022-12-12,Desfavorable,Frenos OK
+Cristina,Suárez,K8PD1YFE82NEDDW1F,Honda,Modelo2,2015,Francia,Rojo,2018-12-26,Daño por granizo,6819.22,Media,Parachoques,15252,2024-01-22,Favorable,Luces dañadas
+Jan,Pereira,YPVRTBRV7ERZU8S93,Renault,Modelo2,2016,España,Rojo,2016-01-07,,4987.6,Leve,Motor,165051,2024-04-15,Favorable,Luces dañadas
+José,Rubio,2VN2UGPKZSJ1865XT,Honda,Modelo2,2012,Italia,Blanco,2024-01-28,Accidente grave,10668.64,Leve,Motor,193301,2023-11-25,Desfavorable,Sin defectos
+Sofía,Muñoz,9ENYN8EUC5WVEMGWK,Fiat,Modelo3,2011,Francia,Gris,2018-11-13,Daño por granizo,8057.51,,Capó,179990,2022-04-18,Desfavorable,Luces dañadas
+Jan,Pereira,252BUV7KYWEFTS2ZC,Fiat,Modelo3,2013,España,Negro,2019-07-05,Accidente grave,5760.93,Media,Parachoques,140097,2024-11-19,Desfavorable,Frenos OK
+Inés,Moreno,E6E6AJTCPGDCR6V2S,Citroen,Modelo2,2021,España,Rojo,,,,,,5231,2024-10-26,Desfavorable,Luces dañadas
+Juan José,Pereira,5YYYNPC6XTJ0LZH99,Volkswagen,Modelo2,2023,Japón,Azul,2017-08-14,Daño por granizo,2111.56,Grave,Parachoques,43306,2023-04-15,Desfavorable,Fugas leves de aceite
+Lucía,Marín,46CUSA8UDPCXCA5EZ,Hyundai,Modelo2,2012,Alemania,Rojo,,,,,,175332,2023-12-29,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,DK6CNSFG0KWPGSZUX,Seat,Modelo1,2011,Japón,Gris,2020-09-18,Daño menor,10310.75,Grave,Laterales,133019,2020-10-05,Desfavorable,Fugas leves de aceite
+Juan José,Pereira,NGP542DTF22X8JAZA,Fiat,Modelo2,2016,Italia,Blanco,2017-09-04,Daño menor,1316.85,Grave,Laterales,63032,2021-09-01,Favorable,Sin defectos
+Víctor Francisco,Nuñez,7CDR76JPEYX5VL20A,Volkswagen,Modelo3,2016,Alemania,Rojo,2023-04-30,Accidente grave,5612.93,,Motor,135678,2022-04-24,Favorable,Fugas leves de aceite
+Enrique,Martínez,MF90RKKJ4G5PKRPJH,Honda,Modelo3,2024,España,Negro,,,,,,175821,2020-03-15,Desfavorable,Fugas leves de aceite
+Antonio,Pereira,J00ZTYMCDZYCUVW9U,Peugeot,Modelo1,2019,España,Gris,2017-01-16,Daño menor,6382.0,,,19260,2022-08-26,Favorable,Frenos OK
+Juan Miguel,Blanco,K866WLWU883LKT2S5,Hyundai,Modelo3,2017,Francia,Negro,2015-02-24,,1856.96,Media,Capó,100983,2021-12-15,Favorable,Fugas leves de aceite
+Rafael,Alonso,0W1CP56N1M5E04ED7,Kia,Modelo3,2023,Italia,Blanco,,,,,,146361,2020-12-03,Favorable,Frenos OK
+Antonio Carmen,Alonso,4CNAU51J530WC0P0K,Peugeot,Modelo3,2022,Italia,Blanco,2015-12-05,Daño menor,2133.26,Media,Capó,98401,2024-05-07,Favorable,Fugas leves de aceite
+Beatriz,López,705K0SPWJE3SC5APH,Mazda,Modelo1,2018,Japón,Negro,2021-06-12,Accidente grave,4057.32,Media,Puertas,26026,2024-07-12,Desfavorable,Luces dañadas

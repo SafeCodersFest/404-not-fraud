@@ -98,5 +98,50 @@ Ejemplo de salida para "JUAN PEREZ":
 2. Añadir columnas de nombres si faltan para evaluación nominal.
 3. Integrar un modelo supervisado y comparar vs heurística.
 
+## 3. Generación de datos sintéticos
+
+### Datos con perfiles controlados (RECOMENDADO)
+`scripts/generate_controlled_data.py` genera datasets con 3 perfiles específicos:
+
+```pwsh
+python scripts/generate_controlled_data.py --output dataset_final
+```
+
+Perfiles generados:
+- **Jan Pereira** (100 asegurados): Alto riesgo - muchos siniestros costosos, vehículos antiguos, en watchlist
+- **Juan José Pereira** (50 asegurados): Bajo riesgo - pocos siniestros baratos, vehículos nuevos, NO en watchlist  
+- **Antonio Pereira** (50 asegurados): Bajo riesgo - casi sin siniestros, vehículos nuevos, NO en watchlist
+- **800 asegurados genéricos**: Distribución normal de riesgo
+
+### Datos sintéticos aleatorios
+Para pruebas generales:
+```pwsh
+python scripts/generate_synthetic_data.py --output dataset_synthetic --asegurados 1000 --siniestros 2000
+```
+
+### Enriquecimiento de datos existentes
+Para añadir nombres a CSVs existentes:
+```pwsh
+python scripts/enrich_data.py --input-dir dataset --output-dir dataset_enriched --high-risk-count 100 --low-risk-count 50
+```
+
+## 4. Validación
+
+Verificar estructura y distribución de datos:
+```pwsh
+python scripts/validate_data.py
+```
+
+## Resultados de Prueba
+
+Ver `RESULTADOS.md` para análisis detallado de scores y comparaciones.
+
+**Resumen de scores (dataset_final):**
+- **Jan Pereira**: 97,196 puntos (CRÍTICO) - 739 siniestros, en watchlist
+- **Juan José Pereira**: 3,750 puntos (mucho menor) - 16 siniestros, NO en watchlist
+- **Antonio Pereira**: 3,750 puntos (mucho menor) - 4 siniestros, NO en watchlist
+
+**Diferencia: Jan Pereira tiene 26x más score que Juan José/Antonio.**
+
 ---
 Actualizado automáticamente el 27-11-2025.

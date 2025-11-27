@@ -24,15 +24,27 @@ NAME_COLUMNS_CANDIDATES = [
 def load_unified(dataset_dir: str) -> pd.DataFrame:
     files = [os.path.join(dataset_dir, f) for f in os.listdir(dataset_dir) if f.lower().endswith(".csv")]
     frames = []
+    errors = []
     for path in files:
         try:
-            df = pd.read_csv(path, encoding="utf-8", low_memory=True)
-        except Exception:
-            df = pd.read_csv(path, encoding="ISO-8859-1", low_memory=True)
+            df = pd.read_csv(path, encoding="utf-8", low_memory=True, on_bad_lines='skip')
+        except Exception as e1:
+            try:
+                df = pd.read_csv(path, encoding="ISO-8859-1", low_memory=True, on_bad_lines='skip')
+            except Exception as e2:
+                errors.append(f"{os.path.basename(path)}: {e2}")
+                continue
+        if df.empty:
+            errors.append(f"{os.path.basename(path)}: archivo vacío")
+            continue
         df["__source_file"] = os.path.basename(path)
         frames.append(df)
+    if errors:
+        print(f"Advertencias al cargar archivos ({len(errors)}):")
+        for err in errors:
+            print(f"  - {err}")
     if not frames:
-        raise SystemExit("No se encontraron CSVs en dataset.")
+        raise SystemExit("No se encontraron CSVs válidos en dataset.")
     return pd.concat(frames, axis=0, ignore_index=True, sort=False)
 
 

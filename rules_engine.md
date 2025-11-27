@@ -20,19 +20,19 @@ Tabla de reglas inicial (editar según necesidades):
 
 | regla | score | descripcion |
 |-------|-------|-------------|
-| Age > 65 | 15 | Edad avanzada aumenta riesgo potencial |
-| DriverRating <= 2 | 10 | Conductor con baja calificación |
-| PolicyType == "Sport - Collision" | 8 | Tipo de póliza con mayor frecuencia de fraude histórico |
-| Make in ["Honda","Ford"] | 5 | Marcas con mayor incidencia estadística (ejemplo) |
-| AccidentArea == "Urban" AND Age < 25 | 12 | Jóvenes en zonas urbanas |
-| duplicate(PolicyNumber) | 20 | Número de póliza repetido |
-| PastNumberOfClaims == "more than 30" | 18 | Historial extremo de reclamos |
-| Days_Policy_Claim == "more than 30" | 7 | Reclamo tardío |
-| PoliceReportFiled == "No" AND WitnessPresent == "No" | 10 | Sin validación externa |
-| high_cardinality(PolicyNumber) | 4 | Posible intento de ofuscación si demasiado único |
-| full_name in ["JUAN PEREZ","MARIA GOMEZ"] | 25 | Nombres en lista de vigilancia |
-| Age == 0 | 30 | Edad inválida declarada |
-| VehiclePrice == "more than 69000" AND AgeOfVehicle == "new" | 14 | Vehículo nuevo muy caro |
+| importe_estimada > 3000 | 12 | Siniestro de alto costo |
+| estado == "ABIERTA" | 8 | Siniestro sin cerrar |
+| responsable == True | 5 | Asegurado responsable del siniestro |
+| duplicate(asegurado_id) | 15 | Múltiples siniestros del mismo asegurado |
+| duplicate(vehiculo_id) | 10 | Vehículo con múltiples siniestros |
+| anio_small < 2015 | 7 | Vehículo antiguo |
+| clase_poliza == "RC" | 3 | Póliza de responsabilidad civil básica |
+| estado == "CANCELADA" | 10 | Póliza cancelada |
+| coste_estimado > 10000 | 15 | Daño histórico muy costoso (carvertical) |
+| gravedad == "Grave" | 12 | Incidente grave previo |
+| resultado_itv == "Desfavorable" | 8 | ITV desfavorable |
+| full_name in ["JUAN PEREZ","MARIA GOMEZ"] | 25 | Nombres en lista de vigilancia básica |
+| lugar in ["Madrid","Barcelona"] | 4 | Zona de alto tráfico |
 
 Notas:
 - `duplicate(col)` suma score si existe >0 duplicados del valor de esa columna para el registro.

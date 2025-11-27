@@ -20,7 +20,7 @@ def list_csv_files(dataset_dir: str) -> List[str]:
 
 
 def try_read_csv(path: str, nrows: int = None) -> pd.DataFrame:
-    encodings = ["utf-8", "ISO-8859-1", "latin1"]
+    encodings = ["utf-8", "ISO-8859-1", "latin1", "cp1252"]
     last_error = None
     for enc in encodings:
         try:
@@ -30,6 +30,7 @@ def try_read_csv(path: str, nrows: int = None) -> pd.DataFrame:
                 na_values=NA_VALUES,
                 low_memory=True,
                 nrows=nrows,
+                on_bad_lines='skip'
             )
             return df
         except Exception as e:  # noqa: BLE001
