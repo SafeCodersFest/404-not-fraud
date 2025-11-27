@@ -48,7 +48,7 @@ def load_unified(dataset_dir: str) -> pd.DataFrame:
     return pd.concat(frames, axis=0, ignore_index=True, sort=False)
 
 
-def load_watchlist(watchlist_path: str) -> Dict[str, int]:
+def load_watchlist(watchlist_path: str) -> Dict[str, Any]:
     if not os.path.isfile(watchlist_path):
         return {}
     try:
@@ -57,11 +57,15 @@ def load_watchlist(watchlist_path: str) -> Dict[str, int]:
         df = pd.read_csv(watchlist_path, encoding="ISO-8859-1")
     if "full_name" not in df.columns or "watchlist_score" not in df.columns:
         return {}
-    result = {}
+    result: Dict[str, Any] = {}
     for _, row in df.iterrows():
         name_norm = normalize_name(str(row["full_name"]))
-        score = int(row["watchlist_score"])
-        result[name_norm] = score
+        try:
+            score = int(row["watchlist_score"]) if pd.notnull(row["watchlist_score"]) else 0
+        except Exception:
+            score = 0
+        reason = str(row["reason"]) if "reason" in df.columns and pd.notnull(row.get("reason")) else ""
+        result[name_norm] = {"score": score, "reason": reason}
     return result
 
 
@@ -227,7 +231,7 @@ def apply_rule(df: pd.DataFrame, rule: Dict[str, Any], full_name_series: pd.Seri
     return pd.Series([False] * len(df))
 
 
-def compute_scores(df: pd.DataFrame, rules: List[Dict[str, Any]], watchlist: Dict[str, int] = None) -> Dict[str, Any]:
+def compute_scores(df: pd.DataFrame, rules: List[Dict[str, Any]], watchlist: Dict[str, Any] = None) -> Dict[str, Any]:
     if watchlist is None:
         watchlist = {}
     name_cols = find_name_columns(df)
@@ -249,7 +253,18 @@ def compute_scores(df: pd.DataFrame, rules: List[Dict[str, Any]], watchlist: Dic
     
     # Apply watchlist scores
     if watchlist and name_cols[0]:
-        watchlist_scores = full_name_series.apply(lambda x: watchlist.get(normalize_name(x), 0))
+        def _wl_score(x: str) -> int:
+            val = watchlist.get(normalize_name(x), 0)
+            if isinstance(val, dict):
+                try:
+                    return int(val.get("score", 0))
+                except Exception:
+                    return 0
+            try:
+                return int(val)
+            except Exception:
+                return 0
+        watchlist_scores = full_name_series.apply(_wl_score)
         watchlist_match_count = (watchlist_scores > 0).sum()
         if watchlist_match_count > 0:
             total_score_series = total_score_series + watchlist_scores
@@ -277,31 +292,58 @@ def compute_scores(df: pd.DataFrame, rules: List[Dict[str, Any]], watchlist: Dic
     }
 
 
-def query_name(result: Dict[str, Any], name: str) -> Dict[str, Any]:
+def query_name(result: Dict[str, Any], name: str, watchlist: Dict[str, Any] = None) -> Dict[str, Any]:
     norm_query = normalize_name(name)
     name_scores = result["name_scores"]
     if name_scores.empty:
         return {"error": "No hay columnas de nombre en el dataset unificado."}
     match_row = name_scores[name_scores["full_name"] == norm_query]
     if match_row.empty:
-        return {"full_name": name, "risk_score": 0, "risk_level": "Bajo", "rules": []}
+        out = {"full_name": name, "risk_score": 0, "risk_level": "Bajo", "rules": [], "records_count": 0}
+        if watchlist:
+            wl_val = watchlist.get(norm_query)
+            if isinstance(wl_val, dict):
+                out["watchlist"] = {"matched": wl_val.get("score", 0) > 0, "score": wl_val.get("score", 0), "reason": wl_val.get("reason", "")}
+            else:
+                out["watchlist"] = {"matched": bool(wl_val), "score": int(wl_val or 0), "reason": ""}
+            out["watchlist_count"] = len(watchlist)
+        return out
     # Determine which rules triggered for this name
     row_scores = result["row_scores"]
     if "__full_name" not in row_scores.columns:
-        return {"full_name": name, "risk_score": int(match_row.iloc[0]["risk_score"]), "risk_level": match_row.iloc[0]["risk_level"], "rules": []}
-    triggered_rows = row_scores[(row_scores["__risk_score"] > 0) & (row_scores["__full_name"] == norm_query)]
+        out = {"full_name": name, "risk_score": int(match_row.iloc[0]["risk_score"]), "risk_level": match_row.iloc[0]["risk_level"], "rules": [], "records_count": 0}
+        if watchlist:
+            wl_val = watchlist.get(norm_query)
+            if isinstance(wl_val, dict):
+                out["watchlist"] = {"matched": wl_val.get("score", 0) > 0, "score": wl_val.get("score", 0), "reason": wl_val.get("reason", "")}
+            else:
+                out["watchlist"] = {"matched": bool(wl_val), "score": int(wl_val or 0), "reason": ""}
+            out["watchlist_count"] = len(watchlist)
+        return out
+    # Rows for this name (all) and triggered (score > 0)
+    rows_name = row_scores[row_scores["__full_name"] == norm_query]
+    triggered_rows = rows_name[rows_name["__risk_score"] > 0]
     active_rules = []
     for act in result["activations"]:
         expr = act["expr"]
         score = act["score"]
         active_rules.append({"expr": expr, "score": score})
-    return {
+    out = {
         "full_name": name,
         "risk_score": int(match_row.iloc[0]["risk_score"]),
         "risk_level": match_row.iloc[0]["risk_level"],
         "rules": active_rules,
-        "records_count": len(triggered_rows)
+        "records_count": len(triggered_rows),
+        "records_breakdown": rows_name["__source_file"].value_counts().to_dict() if "__source_file" in rows_name.columns else {}
     }
+    if watchlist:
+        wl_val = watchlist.get(norm_query)
+        if isinstance(wl_val, dict):
+            out["watchlist"] = {"matched": wl_val.get("score", 0) > 0, "score": wl_val.get("score", 0), "reason": wl_val.get("reason", "")}
+        else:
+            out["watchlist"] = {"matched": bool(wl_val), "score": int(wl_val or 0), "reason": ""}
+        out["watchlist_count"] = len(watchlist)
+    return out
 
 
 def parse_args(argv: List[str]) -> argparse.Namespace:
@@ -312,6 +354,8 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
     p.add_argument("--query-name", default=None, help="Nombre completo a consultar (opcional)")
     p.add_argument("--export", default=None, help="Ruta para exportar resultados row_scores en CSV/Parquet")
     p.add_argument("--export-format", choices=["csv", "parquet"], default="csv")
+    p.add_argument("--concise-output", action="store_true", help="Muestra salida concisa con solo reglas destacadas")
+    p.add_argument("--exclude-rule", action="append", default=[], help="Expr de regla a excluir (repetible)")
     return p.parse_args(argv)
 
 
@@ -319,6 +363,10 @@ def main(argv: List[str]) -> int:
     args = parse_args(argv)
     df = load_unified(args.dataset_dir)
     rules = parse_rules(args.rules)
+    # Excluir reglas si se solicitó
+    if getattr(args, 'exclude_rule', []):
+        exclude_set = set(args.exclude_rule)
+        rules = [r for r in rules if r.get('expr') not in exclude_set]
     watchlist = load_watchlist(args.watchlist) if args.watchlist else {}
     if watchlist:
         print(f"Watchlist cargada: {len(watchlist)} nombres")
@@ -334,9 +382,57 @@ def main(argv: List[str]) -> int:
         print(f" - {act['expr']} (+{act['score']}) count={act['count']}")
 
     if args.query_name:
-        qres = query_name(result, args.query_name)
-        print("\nConsulta nombre:")
-        print(qres)
+        qres = query_name(result, args.query_name, watchlist)
+        print("\n=== PERFIL DE RIESGO ===")
+        if "error" in qres:
+            print(qres["error"])
+        else:
+            print(f"Nombre: {qres['full_name']}")
+            print(f"Score Total: {qres['risk_score']:,}")
+            print(f"Nivel de Riesgo: {qres['risk_level']}")
+            print(f"Registros Encontrados: {qres['records_count']}")
+            # Concise mode: only key highlights
+            if args.concise_output:
+                # Count of rules
+                print(f"{len(qres['rules'])} reglas activadas, incluyendo:")
+                # Watchlist match line
+                if "watchlist" in qres:
+                    wl = qres["watchlist"]
+                    if wl.get("matched"):
+                        print(f"Watchlist match (score variable: +{int(wl.get('score', 0))} según watchlist.csv)")
+                # Specific rule highlights if present
+                highlights = {"full_name in [": None, "duplicate(PolicyNumber)": None, "Age == 0": None}
+                for r in qres["rules"]:
+                    expr = str(r["expr"]) if isinstance(r["expr"], str) else str(r["expr"]) 
+                    score = r["score"]
+                    if expr.startswith("full_name in [") and highlights["full_name in ["] is None:
+                        print(f"full_name in [...] (+{score})")
+                        highlights["full_name in ["] = True
+                    if expr == "duplicate(PolicyNumber)" and highlights["duplicate(PolicyNumber)"] is None:
+                        print(f"duplicate(PolicyNumber) (+{score})")
+                        highlights["duplicate(PolicyNumber)"] = True
+                    if expr == "Age == 0" and highlights["Age == 0"] is None:
+                        print(f"Age == 0 (+{score})")
+                        highlights["Age == 0"] = True
+                # Skip printing other sections in concise mode
+            else:
+                if "watchlist" in qres:
+                    wl = qres["watchlist"]
+                    estado = "Sí" if wl.get("matched") else "No"
+                    print("\nWatchlist:")
+                    if "watchlist_count" in qres:
+                        print(f" - Nombres cargados: {qres['watchlist_count']}")
+                    print(f" - En watchlist: {estado}")
+                    print(f" - Score watchlist: {int(wl.get('score', 0))}")
+                    if wl.get("reason"):
+                        print(f" - Motivo: {wl.get('reason')}")
+                if qres.get("records_breakdown"):
+                    print("\nCoincidencias por archivo:")
+                    for src, cnt in qres["records_breakdown"].items():
+                        print(f" - {src}: {cnt}")
+                print(f"\nReglas Activadas ({len(qres['rules'])}):")
+                for rule in qres['rules']:
+                    print(f"  • {rule['expr']} → +{rule['score']}")
 
     if args.export:
         row_scores = result["row_scores"]
