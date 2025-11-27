@@ -296,18 +296,10 @@ def query_name(result: Dict[str, Any], name: str, watchlist: Dict[str, Any] = No
     norm_query = normalize_name(name)
     name_scores = result["name_scores"]
     if name_scores.empty:
-        return {"error": "No hay columnas de nombre en el dataset unificado."}
+        return {"error": "No"}
     match_row = name_scores[name_scores["full_name"] == norm_query]
     if match_row.empty:
-        out = {"full_name": name, "risk_score": 0, "risk_level": "Bajo", "rules": [], "records_count": 0}
-        if watchlist:
-            wl_val = watchlist.get(norm_query)
-            if isinstance(wl_val, dict):
-                out["watchlist"] = {"matched": wl_val.get("score", 0) > 0, "score": wl_val.get("score", 0), "reason": wl_val.get("reason", "")}
-            else:
-                out["watchlist"] = {"matched": bool(wl_val), "score": int(wl_val or 0), "reason": ""}
-            out["watchlist_count"] = len(watchlist)
-        return out
+        return {"error": "No"}
     # Determine which rules triggered for this name
     row_scores = result["row_scores"]
     if "__full_name" not in row_scores.columns:

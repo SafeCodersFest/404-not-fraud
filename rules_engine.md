@@ -27,7 +27,6 @@ Tabla de reglas inicial (editar según necesidades):
 | duplicate(vehiculo_id) | 10 | Vehículo con múltiples siniestros |
 | anio_small < 2015 | 7 | Vehículo antiguo |
 | clase_poliza == "RC" | 3 | Póliza de responsabilidad civil básica |
-| estado == "CANCELADA" | 10 | Póliza cancelada |
 | coste_estimado > 10000 | 15 | Daño histórico muy costoso (carvertical) |
 | gravedad == "Grave" | 12 | Incidente grave previo |
 | resultado_itv == "Desfavorable" | 8 | ITV desfavorable |
