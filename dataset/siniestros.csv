@@ -1,0 +1,11 @@
+id,referencia,poliza_id,vehiculo_id,asegurado_id,fecha_siniestro,lugar,responsable,importe_estimada,estado
+1,SIN0001,1,1,1,2022-01-15,Madrid,True,1200.5,CERRADA
+2,SIN0002,2,2,2,2021-03-10,Valencia,False,800.0,CERRADA
+3,SIN0003,3,3,3,2022-07-22,Sevilla,True,1500.0,EN_TRAMITE
+4,SIN0004,4,4,4,2023-02-19,Málaga,False,400.0,CERRADA
+5,SIN0005,5,5,5,2023-05-01,Barcelona,True,2500.75,ABIERTA
+6,SIN0006,6,6,6,2020-11-11,Alicante,True,1300.0,CERRADA
+7,SIN0007,7,7,7,2019-09-09,Bilbao,False,600.0,CERRADA
+8,SIN0008,8,8,8,2021-08-30,Zaragoza,True,1750.0,EN_TRAMITE
+9,SIN0009,9,9,9,2022-12-24,Toledo,False,500.0,CERRADA
+10,SIN0010,10,10,10,2023-06-14,Córdoba,True,900.0,ABIERTA
